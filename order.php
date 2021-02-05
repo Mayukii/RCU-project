@@ -22,8 +22,10 @@
                     Respiratory Care Unit
                 </a>
                 <form class="form-inline">
-                    <button type="button" class="btn btn-outline-info">เรียกเจ้าหน้าที่</button>
-                    <button type="button" class="btn btn-outline-info">CPR</button>
+                    <div class="btn-toolbar">
+                        <button type="button" class="btn btn-outline-info">เรียกเจ้าหน้าที่</button>
+                        <button type="button" class="btn btn-outline-info">CPR</button>
+                    </div>
                 </form>
             </nav>
 
@@ -31,22 +33,22 @@
                 <div class="menu">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-info active" href="#">รายการสั่งยาบ่อย</button>
+                            <button type="button" class="btn btn-outline-info mr-1" href="#">รายการสั่งยาบ่อย</button>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-info" href="#">ยา</button>
+                            <button type="button" class="btn btn-outline-info mr-1" href="#">ยา</button>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-info" href="#">เวชภัณฑ์</button>
+                            <button type="button" class="btn btn-outline-info mr-1" href="#">เวชภัณฑ์</button>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-info" href="#">อาหาร</button>
+                            <button type="button" class="btn btn-outline-info mr-1" href="#">อาหาร</button>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-info" href="#">Timeeettttt</button>
+                            <button type="button" class="btn btn-outline-info mr-1" href="#">Timeeettttt</button>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn btn-outline-info" href="#">Search</button>
+                            <button type="button" class="btn btn-outline-info mr-1" href="#">Search</button>
                         </li>
                     </ul>
                 </div>
