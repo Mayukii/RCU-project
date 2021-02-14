@@ -6,6 +6,7 @@ $(document).ready(function(){
     // set .list-warpper div equal max hight
     eqMaxHeightDiv(".list-warpper");
 
+    
     $(".plus").click( function() {
         $(this).prev().val(+$(this).prev().val() + 1);  
     });
@@ -13,6 +14,8 @@ $(document).ready(function(){
     $(".minus").click( function() {
         if ($(this).next().val() > 0) $(this).next().val(+$(this).next().val() - 1);
     });
+
+    paginationTable();
     
 });
 
@@ -44,5 +47,28 @@ function pagination() {
             var showTo = showFrom + perPage;
             items.hide().slice(showFrom, showTo).show();
         }
+    });
+}
+
+function paginationTable() {
+    var rowsShown = 4;
+    var rowsTotal = $('#data tbody tr').length;
+    var numPages = rowsTotal/rowsShown;
+    for(i = 0;i < numPages;i++) {
+        var pageNum = i + 1;
+        $('#nav').append('<a href="#" rel="'+i+'">'+pageNum+'</a> ');
+    }
+    $('#data tbody tr').hide();
+    $('#data tbody tr').slice(0, rowsShown).show();
+    $('#nav a:first').addClass('active');
+    $('#nav a').bind('click', function(){
+
+        $('#nav a').removeClass('active');
+        $(this).addClass('active');
+        var currPage = $(this).attr('rel');
+        var startItem = currPage * rowsShown;
+        var endItem = startItem + rowsShown;
+        $('#data tbody tr').css('opacity','0.0').hide().slice(startItem, endItem).
+        css('display','table-row').animate({opacity:1}, 300);
     });
 }

@@ -27,11 +27,12 @@
                     <br>
                     Respiratory Care Unit
                 </a>
+                <div id="nav"></div>
             </nav>
 
             <br>
             <div class="body-page">
-                <table class="table order list">
+                <table class="table order list" id="data">
                     <!-- <thead>
                         <tr>
                             <th scope="col" colspan="3">
@@ -55,8 +56,48 @@
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
                     </tbody>
                 </table>
+
+                <div class="btmdiv d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success mr-1" href="#">ยอมรับ</button>
+                    <button type="button" class="btn btn-outline-danger mr-1" href="#">ยกเลิก</button>
+                </div>
             </div>
         </div>
     </body>
