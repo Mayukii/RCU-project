@@ -27,35 +27,36 @@
                     <br>
                     Respiratory Care Unit
                 </a>
-                <form class="form-inline">
-                    <button type="button" id = "btnCallOfficer" class="btn btn-outline-info mr-1">เรียกเจ้าหน้าที่</button>
-                    <button type="button" id="btnCpr" class="btn btn-outline-info">CPR</button>
-                </form>
             </nav>
 
+            <br>
             <div class="body-page">
-                <div class="card-body">
-                    <h2 class="card-title">กรุณาเลือกเตียงเพื่อทำหัตการ</h2>
-                </div>
-
-                <div class="list-warpper row">
-                    <?php for($i = 1; $i <= 9; $i++) {?>
-                    <div class="list-item col-6">
-                        <div class="card-deck">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">เตียงที่ <?php print $i; ?></h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <?php } ?>
-                </div>
-
-                <div class="pagination justify-content-center"></div>
-
+                <table class="table order list">
+                    <!-- <thead>
+                        <tr>
+                            <th scope="col" colspan="3">
+                                #
+                            </th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                        <tr>
+                        <th>img</th>
+                        <td>เตียง</td>
+                        <td>date</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </body>

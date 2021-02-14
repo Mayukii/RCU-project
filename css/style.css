@@ -1,3 +1,26 @@
+input {
+   border: 0;
+   text-align: center;
+}
+
 .card-deck {
    margin-bottom: 20px; 
 }
+
+.menu{
+   margin-top: 10px;
+   margin-bottom: 20px; 
+}
+
+.btmdiv {
+   margin-top:10px;
+}
+
+
+table.order.list th:first-child { border-radius: 9px 0 0 0; } 
+table.order.list th:last-child { border-radius: 0 9px 0 0; } 
+table.order.list tr:first-child td:last-child { border-radius: 0 9px 0 0; } 
+table.order.list tr:first-child td:first-child { border-radius: 9px 0 0 0; }
+table.order.list tr:last-child td:first-child { border-radius: 0 0 0 9px; }
+table.order.list tr:last-child td:last-child { border-radius: 0 0 9px 0; }
+table.order.list tbody tr:nth-child(odd) { background: #A0C0FC; }
