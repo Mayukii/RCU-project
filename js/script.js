@@ -16,6 +16,8 @@ $(document).ready(function(){
     });
 
     paginationTable();
+
+    setInterval(display, 1000);
     
 });
 
@@ -71,4 +73,20 @@ function paginationTable() {
         $('#data tbody tr').css('opacity','0.0').hide().slice(startItem, endItem).
         css('display','table-row').animate({opacity:1}, 300);
     });
+}
+
+function display()
+{
+    var today = new Date();
+    var month = today.getMonth();
+    var day = today.getDay();
+    var year = today.getFullYear();
+
+    var hour = today.getHours() > 12 ? today.getHours() - 12 : today.getHours();
+    var minute = today.getMinutes();
+    var seconds = today.getSeconds();
+
+    var output = month + hour + ':' + minute + ':' + seconds;
+    console.log(output);
+    $("#example").text(output);
 }

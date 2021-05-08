@@ -46,7 +46,7 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                         <img class="bedpic" src="img/bed.png" width="150" height="150">
-                                        <a id="bedtext">เตียง <?php echo $i?></a>
+                                        <a id="bedtext" href="order.php?bed=bed<?php echo $i?>" >เตียง <?php echo $i?></a>
                                     </p>
                                     <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                                 </div>
