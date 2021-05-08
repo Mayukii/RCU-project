@@ -61,8 +61,7 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="card-title">ยา</h5>
-                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            <img class="medicalpic" src="img/medical.png" width="100%" height="250">
                                         </div>
                                     </div>
                                 </div>
@@ -72,8 +71,7 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="card-title">เวชภัณฑ์</h5>
-                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            <img class="supplypic" src="img/supply.png" width="100%" height="250">
                                         </div>
                                     </div>
                                 </div>
@@ -83,8 +81,7 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="card-title">อาหาร</h5>
-                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            <img class="foodpic" src="img/food.jpg" width="100%" height="250">
                                         </div>
                                     </div>
                                 </div>
@@ -94,8 +91,7 @@
                                     <div class="card">
                                         <div class="card-body">
                                             <h5 class="card-title">TEAM</h5>
-                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            <img class="teampic" src="img/team.png" width="100%" height="250">
                                         </div>
                                     </div>
                                 </div>

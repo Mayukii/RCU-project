@@ -44,9 +44,11 @@
                         <div class="card-deck">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title">เตียงที่ <?php print $i; ?></h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">
+                                        <img class="bedpic" src="img/bed.png" width="150" height="150">
+                                        <a id="bedtext">เตียง <?php echo $i?></a>
+                                    </p>
+                                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                                 </div>
                             </div>
                         </div>

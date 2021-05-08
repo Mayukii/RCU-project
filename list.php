@@ -42,52 +42,52 @@
                     </thead> -->
                     <tbody>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
                         <tr>
-                        <th>img</th>
+                        <th><img class="teampic" src="img/bed2.png"></th>
                         <td>เตียง</td>
                         <td>date</td>
                         </tr>
